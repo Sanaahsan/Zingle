@@ -1,3 +1,5 @@
+// for time when the message was sent/received
+
 export function formatMessageTime(date){
     return new Date(date).toLocaleTimeString("en-Us",{
         hour: "2-digit",

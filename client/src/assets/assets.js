@@ -35,7 +35,9 @@ const assets = {
     arrow_icon,
     code,
     bgImage,
-    profile_martin
+    profile_martin,
+    img1,
+    img2,
 }
 
 export default assets;
