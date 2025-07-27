@@ -8,7 +8,7 @@ import assets from './assets/assets'
 const App = () => {
   return (
     // to add the bg img in all pages
-    <div className="bg-[url('./src/assets/bgImage.svg')] bg-contain">
+    <div className="bg-[url('./src/assets/bgImage.svg')] bg-cover bg-no-repeat">
     <Routes>
          <Route path = '/' element={<HomePage />}/>
          <Route path = '/login' element={<LoginPage />}/>
